@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pt-Br" >
+<head>
+  <meta charset="UTF-8">
+  <title>Calculadora de média</title>
+  <link rel="stylesheet" href="./style.css">
+
+</head>
+
+<body>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+
+  <div class="container">
+    <h1 class="page-title">
+      Calculadora de média
+    </h1>
+
+
+    <p class="page-subtitle">
+      Descubra a média entre suas notas
+    </p>
+    <br> <br>
+
+    <label class="informe_qnt_provas" id="label_qnt_provas">
+      Quantas notas você deseja calcular? <br>
+      <input type="text" class="qnt_provas" id="qnt_provas" minlength="1" maxlength="2">
+      <button type="submit" onclick="qnt_provas()">Enviar</button>
+    </label> <br><br>
+
+    <div class="container2" id="caixas_notas"> </div>
+    <button id="btnMedia" class="botao_media" onclick="MediaFinal()"> Ver Média Final </button>
+    <p class="msg" id="msg"> </p>
+    <button id="btnZerar" class="botao_zerar" onclick="Zerar()"> Remover Tudo </button>
+  </div>
+
+
+  <script  src="./script.js"></script>
+</body>
+</html>

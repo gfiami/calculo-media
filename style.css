@@ -1,0 +1,76 @@
+body {
+  font-family: "Roboto Mono", monospace;
+  min-height: 400px;
+  background-image: linear-gradient(black, gray);
+  background-position: center bottom;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+.msg {
+  text-align: center;
+  font-size: 20px;
+  color: white;
+  font-family: "Roboto Mono", monospace;
+}
+
+.container {
+  text-align: center;
+  padding: 20px;
+  height: 100vh;
+}
+
+
+.page-title {
+  color: #ffffff;
+  margin: 0 0 5px;
+}
+
+.page-subtitle {
+  color: #ffffff;
+  margin-top: 5px;
+}
+
+.page-logo {
+  width: 200px;
+}
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+}
+.alura-logo {
+  width: 40px;
+  position: absolute;
+  top: 10px;
+  right: 10px;
+}
+
+.informe_notas, .informe_qnt_provas {
+  color: white;
+  font-weight: bold;
+  font-size: 16px;
+}
+.qnt_provas {
+  text-align: center;
+  width: 50px;
+  height: 20px;
+}
+.peso_box{
+  text-align: center;
+  width: 60px;
+  height: 15px;
+}
+.nota_box {
+  width: 185px;
+  height: 25px;
+  text-align: center;
+}
+.info_decimal {
+  color: white;
+  font-size: 77;
+}
+
+.botao_media {
+  height: 10%;
+  width: 20 %;
+  border: round;
+  font-family: "Roboto", monospace;
+}
